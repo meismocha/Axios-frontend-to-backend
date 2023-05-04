@@ -1,0 +1,34 @@
+<!-- app.use("/", express.static("../frontend")); -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>  
+</head>
+<body>
+    <div>
+        <textarea id="messagesDisplay" name="messagesDisplay" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+        <button id="testGET">Test GET</button>
+        <button id="testPOST">Test POST</button>
+    </div>
+    <div>
+        <button id="createTable">Create Table</button>
+        <button id="dropTable">Drop Table</button>
+    </div>
+    <div>
+        <input type="text" id="messageToSend" name="messageToSend">
+        <button id = "insertMessage">Send</button>
+    </div>
+    <div>
+        <button id = "getMessages">Retrieve</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
